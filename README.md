@@ -42,7 +42,7 @@ math.html
 <style type="text/css">
 body 
 {
-background-color:red;
+background-color:goldenrod;
 }
 .edge {
 width: 1440px;
@@ -57,17 +57,17 @@ border: Thick dashed lime;
 width: 500px;
 min-height: 300px;
 font-size: 20px;
-background-color:blue;
+background-color:cyan;
 }
 .formelt{
-color:orange;
+color:purple;
 text-align: center;
 margin-top: 7px;
 margin-bottom: 6px;
 }
 h1
 {
-color:rgb(255, 0, 179);
+color:yellow(255, 0, 179);
 text-align: center;
 padding-top: 20px;
 }
@@ -96,7 +96,6 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </div>
 </body>
 </html>
-
 views.py
 
 from django.shortcuts import render
@@ -131,10 +130,13 @@ urlpatterns = [
 ]
 ```
 ## SERVER SIDE PROCESSING:
-![Alt text](sideprocess.png)
+![Alt text](sideprocessing.png)
+
 
 ## HOMEPAGE:
-![Alt text](prism.png)
+![Alt text](squareprism.png)
+
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
