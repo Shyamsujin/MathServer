@@ -133,9 +133,9 @@ urlpatterns = [
 ![Alt text](sideprocessing.png)
 
 
+
 ## HOMEPAGE:
 ![Alt text](squareprism.png)
-
 
 
 ## RESULT:
